@@ -2,12 +2,6 @@ import streamlit as st
 
 st.title("Hello World Deployment 🚀")
 
-name = st.text_input("Enter your name:")
-
-if name:
-    st.success(f"Hello, {name}!")
-
-st.write("---")
 
 st.subheader("Mini Calculator")
 
